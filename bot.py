@@ -1,3 +1,15 @@
+# ==============================
+# 🔐 CARGA DE VARIABLES DE ENTORNO
+# ==============================
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = os.getenv("TOKEN")
+
+# ==============================
+# 🧠 DETECCIÓN DE ANIMAL
+# ==============================
 def detectar_animal(texto):
     texto = texto.lower()
 
@@ -10,13 +22,25 @@ def detectar_animal(texto):
     else:
         return "desconocido"
 
+# ==============================
+# 🧠 DETECCIÓN DE INTENCIÓN
+# ==============================
 def detectar_intencion(texto):
     texto = texto.lower()
 
-    urgencias = ["no respira", "convulsiona", "sangra", "desmayado", "no se mueve"]
-    sintomas = ["vomita", "diarrea", "no come", "triste", "decaido"]
-    citas = ["cita", "agendar", "consulta"]
+    urgencias = [
+        "no respira", "convulsiona", "sangra", "desmayado",
+        "no se mueve", "no despierta", "ataque"
+    ]
 
+    sintomas = [
+        "vomita", "diarrea", "no come", "triste",
+        "decaido", "fiebre", "tos", "cojea"
+    ]
+
+    citas = ["cita", "agendar", "consulta", "horario"]
+
+    # 🔥 Prioridad: urgencias primero
     if any(p in texto for p in urgencias):
         return "urgencia"
     elif any(p in texto for p in sintomas):
@@ -26,19 +50,9 @@ def detectar_intencion(texto):
     else:
         return "desconocido"
 
-def generar_respuesta(intencion):
-    if intencion == "urgencia":
-        return "🚨 Esto parece una URGENCIA. Lleva a tu mascota a una veterinaria 24 hrs inmediatamente."
-
-    elif intencion == "consulta":
-        return "⚠️ Puede ser un problema común. Observa a tu mascota, mantenla hidratada y si persiste, agenda una cita con un veterinario."
-
-    elif intencion == "cita":
-        return "📅 Puedes agendar una cita en horario laboral. ¿Deseas que te ayude con eso?"
-
-    else:
-        return "No entendí bien tu consulta. Intenta describir el problema de tu mascota."
-
+# ==============================
+# 🤖 GENERACIÓN DE RESPUESTA
+# ==============================
 def generar_respuesta(intencion, animal):
 
     if intencion == "urgencia":
@@ -47,16 +61,25 @@ def generar_respuesta(intencion, animal):
     elif intencion == "consulta":
 
         if animal == "perro":
-            return "🐶 Tu perro podría tener un problema digestivo. Mantén hidratación y observa si sigue vomitando o con diarrea."
+            return """🐶 Posible problema digestivo.
+- Mantén hidratación
+- Evita comida pesada
+- Si hay vómito constante → veterinario"""
 
         elif animal == "gato":
-            return "🐱 Los gatos suelen ocultar síntomas. Si vomita o no come, obsérvalo de cerca y considera llevarlo al veterinario."
+            return """🐱 Los gatos ocultan síntomas.
+- Observa si come
+- Revisa vómitos
+- Si continúa → veterinario"""
 
         elif animal == "conejo":
-            return "🐰 Los conejos son delicados. Si deja de comer o está quieto, puede ser grave. Requiere atención veterinaria."
+            return """🐰 Conejos son delicados.
+- Si deja de comer → puede ser grave
+- Mantén ambiente tranquilo
+- Acude a veterinario"""
 
         else:
-            return "⚠️ No identifiqué el tipo de mascota. ¿Es perro, gato o conejo?"
+            return "⚠️ No identifiqué la mascota. ¿Es perro, gato o conejo?"
 
     elif intencion == "cita":
         return "📅 Puedes agendar una cita en horario laboral. ¿Qué día te gustaría?"
@@ -64,8 +87,9 @@ def generar_respuesta(intencion, animal):
     else:
         return "No entendí bien tu consulta. Intenta describir mejor el problema."
 
-###### funcion_telegram#########
-
+# ==============================
+# 🤖 TELEGRAM BOT
+# ==============================
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
@@ -82,12 +106,19 @@ async def responder(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # 🔹 Función principal
 def main():
-    app = ApplicationBuilder().token("8545838369:AAE8FYmB2xUB3Bb9z06gyxbLy19F-ZC2Zp0").build()
+    if not TOKEN:
+        print("❌ ERROR: No se encontró el TOKEN en el archivo .env")
+        return
+
+    app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(MessageHandler(filters.TEXT, responder))
 
-    print("Bot corriendo...")
+    print("🤖 Bot corriendo...")
     app.run_polling()
 
+# ==============================
+# 🚀 EJECUCIÓN
+# ==============================
 if __name__ == "__main__":
     main()

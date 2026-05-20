@@ -1,0 +1,79 @@
+fecha,usuario,mensaje,animal,intencion,respuesta
+2026-05-06 21:04:07,Arturo,quiero una cita,desconocido,cita,"📅 Solicitud de cita detectada.
+
+Para agendar, proporciona:
+- Nombre del cliente
+- Nombre de la mascota
+- Especie
+- Motivo de la consulta
+- Día preferido"
+2026-05-06 21:04:44,Arturo,"arturo, juana, perro, vomito. 22/05/2026",perro,urgencia,"🚨 URGENCIA detectada.
+
+Lleva a tu mascota a una veterinaria 24 hrs inmediatamente.
+
+⚠️ Este bot no sustituye la atención de un médico veterinario."
+2026-05-07 19:51:01,Arturo,mi perro tiene diarrea,perro,consulta,"🐶 Consulta detectada para perro.
+
+Recomendación básica:
+- Mantén hidratación disponible.
+- Observa si hay vómito, diarrea, fiebre o falta de apetito.
+- Si los síntomas continúan o empeoran, agenda una cita con un veterinario.
+
+⚠️ Este bot solo brinda orientación básica."
+2026-05-07 19:53:14,Arturo,tiene fiebre,desconocido,consulta,"⚠️ Detecté una consulta, pero no identifiqué la mascota.
+
+Por favor indica si se trata de:
+- perro
+- gato
+- conejo"
+2026-05-07 19:53:24,Arturo,perro,perro,urgencia,"🚨 URGENCIA detectada.
+
+Lleva a tu mascota a una veterinaria 24 hrs inmediatamente.
+
+⚠️ Este bot no sustituye la atención de un médico veterinario."
+2026-05-07 19:53:40,Arturo,quiero una cita,desconocido,cita,"📅 Solicitud de cita detectada.
+
+Para agendar, proporciona:
+- Nombre del cliente
+- Nombre de la mascota
+- Especie
+- Motivo de la consulta
+- Día preferido"
+2026-05-07 19:56:55,Arturo,-arturo - juana -perro -fiebre -lunes 11,perro,consulta,"🐶 Consulta detectada para perro.
+
+Recomendación básica:
+- Mantén hidratación disponible.
+- Observa si hay vómito, diarrea, fiebre o falta de apetito.
+- Si los síntomas continúan o empeoran, agenda una cita con un veterinario.
+
+⚠️ Este bot solo brinda orientación básica."
+2026-05-07 20:27:10,Arturo,mi perro tiene diarrea,perro,consulta
+2026-05-07 20:27:31,Arturo,mi gato no respira,gato,urgencia
+2026-05-07 20:27:48,Arturo,quiero una cita para mi conejo,conejo,cita
+2026-05-07 20:28:48,Arturo,arturo juana perro vomito lunes 11,perro,urgencia
+2026-05-08 19:19:34,Arturo,mi perro tiene vomito,perro,consulta
+2026-05-08 20:07:39,Arturo,diarrea,desconocido,consulta
+2026-05-08 20:07:48,Arturo,perro,perro,urgencia
+2026-05-08 20:12:03,Arturo,vomito,desconocido,cita
+2026-05-08 20:12:14,Arturo,perro,perro,urgencia
+2026-05-08 20:12:51,Arturo,mi perro tiene vomito,perro,consulta
+2026-05-09 13:20:41,Arturo,mi perro tiene fiebre,perro,consulta
+2026-05-09 13:21:06,Arturo,atropellaron a mi gato,gato,consulta
+2026-05-09 13:21:27,Arturo,atropellaron a mi gato,gato,consulta
+2026-05-09 13:21:39,Arturo,le dispararon a mi gato,gato,consulta
+2026-05-09 13:21:51,Arturo,mi gato tiene fiebre,gato,consulta
+2026-05-09 13:22:04,Arturo,gato,gato,consulta
+2026-05-09 13:22:11,Arturo,perro,perro,urgencia
+2026-05-09 13:22:22,Arturo,conejo,conejo,consulta
+2026-05-13 20:30:57,Arturo,mi perro tiene vomito,perro,consulta
+2026-05-13 21:08:40,Arturo,venden gallos?,desconocido,fuera_alcance
+2026-05-19 19:53:15,Arturo,ando buscando un perro,perro,urgencia
+2026-05-19 19:54:28,Luis,hola,desconocido,cita
+2026-05-19 19:58:52,Luis,Aguirre,desconocido,cita
+2026-05-19 19:59:26,Luis,"aguirre, pelos, gato , me cago la mano y esta aguado, mañana",gato,cita
+2026-05-19 19:59:36,Luis,pero ya agende mi cita,desconocido,cita
+2026-05-19 20:03:01,Luis,mi perro tiene vomito,perro,consulta
+2026-05-19 20:03:23,Luis,Pero tambien hace popo roja aparte del vomito,desconocido,consulta
+2026-05-19 20:03:30,Luis,perro,perro,consulta
+2026-05-19 20:03:44,Luis,Mi perro lo atropellaron,perro,consulta
+2026-05-19 20:03:56,Luis,Mi perro no respira,perro,urgencia

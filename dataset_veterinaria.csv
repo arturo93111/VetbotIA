@@ -1,0 +1,305 @@
+texto,animal,intencion,gravedad
+"quiero agendar una cita",desconocido,cita,baja
+"necesito una cita para mi perro",perro,cita,baja
+"puedo sacar cita para mañana",desconocido,cita,baja
+"quiero llevar a mi gato a consulta",gato,cita,baja
+"me puedes agendar una revisión",desconocido,cita,baja
+"hay espacio para consulta",desconocido,cita,baja
+"quiero cita para mi conejo",conejo,cita,baja
+"necesito revisar a mi mascota",desconocido,cita,baja
+"puedo agendar hoy",desconocido,cita,baja
+"quiero saber horarios disponibles",desconocido,cita,baja
+"me gustaría una consulta veterinaria",desconocido,cita,baja
+"puedo llevar a mi perro mañana",perro,cita,baja
+"quiero vacunar a mi gato",gato,cita,baja
+"mi conejo necesita revisión",conejo,cita,baja
+"quiero programar una consulta",desconocido,cita,baja
+"hay citas esta semana",desconocido,cita,baja
+"quiero una consulta para mi mascota",desconocido,cita,baja
+"puedo apartar horario",desconocido,cita,baja
+"necesito cita urgente",desconocido,cita,baja
+"quiero llevar a mi perro al veterinario",perro,cita,baja
+"quiero revisión para mi gato",gato,cita,baja
+"agendar cita para conejo",conejo,cita,baja
+"me ayudas con una cita",desconocido,cita,baja
+"quiero atención veterinaria",desconocido,cita,baja
+"puedo ir hoy con mi mascota",desconocido,cita,baja
+"necesito consulta para vacunación",desconocido,cita,baja
+"quiero esterilizar a mi gato",gato,cita,baja
+"mi perro necesita vacunas",perro,cita,baja
+"quiero llevar a mi conejo",conejo,cita,baja
+"quiero una cita disponible",desconocido,cita,baja
+"necesito consulta general",desconocido,cita,baja
+"me gustaría revisar a mi perro",perro,cita,baja
+"puedo hacer cita por aquí",desconocido,cita,baja
+"quiero llevar a mi gato mañana",gato,cita,baja
+"hay horarios libres",desconocido,cita,baja
+"necesito atención para mi mascota",desconocido,cita,baja
+"quiero consulta médica",desconocido,cita,baja
+"mi conejo necesita vacunas",conejo,cita,baja
+"quiero una revisión veterinaria",desconocido,cita,baja
+"quiero consulta para mi cachorro",perro,cita,baja
+"puedo reservar una cita",desconocido,cita,baja
+"me interesa una consulta",desconocido,cita,baja
+"mi gato necesita chequeo",gato,cita,baja
+"quiero cita para revisión dental",desconocido,cita,baja
+"quiero agendar revisión para mi perro",perro,cita,baja
+"necesito atención para mi gato",gato,cita,baja
+"quiero consulta para conejo",conejo,cita,baja
+"me gustaría llevar a mi mascota",desconocido,cita,baja
+"quiero apartar cita veterinaria",desconocido,cita,baja
+"necesito revisión médica",desconocido,cita,baja
+
+"mi perro vomita",perro,consulta,media
+"mi gato no quiere comer",gato,consulta,media
+"mi conejo tiene diarrea",conejo,consulta,media
+"mi perro está triste",perro,consulta,baja
+"mi gato está decaído",gato,consulta,media
+"mi conejo no come bien",conejo,consulta,media
+"mi perro tiene tos",perro,consulta,baja
+"mi gato vomitó una vez",gato,consulta,media
+"mi perro tiene diarrea",perro,consulta,media
+"mi conejo está raro",conejo,consulta,media
+"mi perro tiene fiebre",perro,consulta,media
+"mi gato duerme mucho",gato,consulta,baja
+"mi conejo perdió apetito",conejo,consulta,media
+"mi perro se rasca mucho",perro,consulta,baja
+"mi gato tiene lagañas",gato,consulta,baja
+"mi conejo hace menos del baño",conejo,consulta,media
+"mi perro está cansado",perro,consulta,baja
+"mi gato tiene diarrea",gato,consulta,media
+"mi conejo no quiere agua",conejo,consulta,media
+"mi perro vomita amarillo",perro,consulta,media
+"mi gato maúlla raro",gato,consulta,baja
+"mi conejo está quieto",conejo,consulta,media
+"mi perro perdió apetito",perro,consulta,media
+"mi gato no juega",gato,consulta,baja
+"mi conejo se esconde mucho",conejo,consulta,baja
+"mi perro tiene mocos",perro,consulta,baja
+"mi gato tiene tos",gato,consulta,media
+"mi conejo come poco",conejo,consulta,media
+"mi perro tiene mal olor",perro,consulta,baja
+"mi gato tiene picazón",gato,consulta,baja
+"mi conejo está estresado",conejo,consulta,baja
+"mi perro tomó poca agua",perro,consulta,baja
+"mi gato vomita comida",gato,consulta,media
+"mi conejo hace sonidos raros",conejo,consulta,baja
+"mi perro está desanimado",perro,consulta,baja
+"mi gato perdió peso",gato,consulta,media
+"mi conejo tiene el ojo rojo",conejo,consulta,media
+"mi perro se lame mucho",perro,consulta,baja
+"mi gato tiene mal aliento",gato,consulta,baja
+"mi conejo tiene poco ánimo",conejo,consulta,baja
+"mi perro come pasto",perro,consulta,baja
+"mi gato no toma agua",gato,consulta,media
+"mi conejo está flaco",conejo,consulta,media
+"mi perro tiene gases",perro,consulta,baja
+"mi gato tiene caspa",gato,consulta,baja
+"mi conejo duerme demasiado",conejo,consulta,baja
+"mi perro tiene comezón",perro,consulta,baja
+"mi gato está escondido",gato,consulta,baja
+"mi conejo tiene diarrea leve",conejo,consulta,media
+"mi perro está raro desde ayer",perro,consulta,media
+
+"mi perro no respira",perro,urgencia,alta
+"mi gato convulsiona",gato,urgencia,alta
+"mi conejo no se mueve",conejo,urgencia,alta
+"mi perro sangra mucho",perro,urgencia,alta
+"mi gato está desmayado",gato,urgencia,alta
+"mi mascota no despierta",desconocido,urgencia,alta
+"mi perro tuvo un ataque",perro,urgencia,alta
+"mi gato no puede respirar",gato,urgencia,alta
+"mi conejo está tirado y no responde",conejo,urgencia,alta
+"mi mascota está sangrando",desconocido,urgencia,alta
+"mi perro convulsiona",perro,urgencia,alta
+"mi gato sangra por la boca",gato,urgencia,alta
+"mi conejo respira raro",conejo,urgencia,alta
+"mi perro fue atropellado",perro,urgencia,alta
+"mi gato no puede caminar",gato,urgencia,alta
+"mi conejo tiene espuma en la boca",conejo,urgencia,alta
+"mi perro está inconsciente",perro,urgencia,alta
+"mi gato tuvo un accidente",gato,urgencia,alta
+"mi conejo no reacciona",conejo,urgencia,alta
+"mi perro sangra de la nariz",perro,urgencia,alta
+"mi gato está muy agitado",gato,urgencia,alta
+"mi conejo está muy débil",conejo,urgencia,alta
+"mi perro se desmayó",perro,urgencia,alta
+"mi gato no abre los ojos",gato,urgencia,alta
+"mi conejo está inmóvil",conejo,urgencia,alta
+"mi perro tiene un hueso roto",perro,urgencia,alta
+"mi gato respira muy rápido",gato,urgencia,alta
+"mi conejo tiene sangre",conejo,urgencia,alta
+"mi perro está temblando mucho",perro,urgencia,alta
+"mi gato se cayó y no responde",gato,urgencia,alta
+"mi conejo está convulsionando",conejo,urgencia,alta
+"mi perro no puede levantarse",perro,urgencia,alta
+"mi gato tiene heridas graves",gato,urgencia,alta
+"mi conejo está agonizando",conejo,urgencia,alta
+"mi perro se intoxicó",perro,urgencia,alta
+"mi gato tragó veneno",gato,urgencia,alta
+"mi conejo no puede respirar",conejo,urgencia,alta
+"mi perro tiene mucha sangre",perro,urgencia,alta
+"mi gato está inconsciente",gato,urgencia,alta
+"mi conejo se desmayó",conejo,urgencia,alta
+"mi perro tiene convulsiones fuertes",perro,urgencia,alta
+"mi gato no responde al tocarlo",gato,urgencia,alta
+"mi conejo tuvo un accidente",conejo,urgencia,alta
+"mi perro está muy grave",perro,urgencia,alta
+"mi gato está sangrando mucho",gato,urgencia,alta
+"mi conejo no despierta",conejo,urgencia,alta
+"mi perro se está ahogando",perro,urgencia,alta
+"mi gato no puede moverse",gato,urgencia,alta
+"mi conejo está sangrando",conejo,urgencia,alta
+"mi mascota necesita ayuda urgente",desconocido,urgencia,alta
+"quiero consulta para mi perrita",perro,cita,baja
+"mi gatito necesita revisión",gato,cita,baja
+"quiero llevar a mi conejo al veterinario",conejo,cita,baja
+"tienen citas para hoy",desconocido,cita,baja
+"me gustaría agendar para mañana",desconocido,cita,baja
+"hay horario libre por la tarde",desconocido,cita,baja
+"quiero revisión médica para mi perro",perro,cita,baja
+"necesito consulta para mi gato",gato,cita,baja
+"mi conejo necesita chequeo general",conejo,cita,baja
+"quiero programar cita veterinaria",desconocido,cita,baja
+"puedo llevar a mi mascota hoy",desconocido,cita,baja
+"quiero revisión para cachorro",perro,cita,baja
+"necesito atención veterinaria mañana",desconocido,cita,baja
+"mi gato necesita vacunas",gato,cita,baja
+"quiero una cita para esterilización",desconocido,cita,baja
+"mi perro necesita revisión dental",perro,cita,baja
+"quiero consulta por alergia",desconocido,cita,baja
+"puedo apartar una consulta",desconocido,cita,baja
+"quiero llevar a mi gatita",gato,cita,baja
+"mi conejo necesita atención",conejo,cita,baja
+"hay citas disponibles mañana",desconocido,cita,baja
+"quiero agendar una revisión médica",desconocido,cita,baja
+"puedo sacar cita para vacunación",desconocido,cita,baja
+"quiero cita para desparasitación",desconocido,cita,baja
+"mi perro necesita chequeo",perro,cita,baja
+"quiero consulta para mi mascota",desconocido,cita,baja
+"me gustaría una cita veterinaria",desconocido,cita,baja
+"mi gato necesita revisión urgente",gato,cita,baja
+"quiero llevar a mi conejo mañana",conejo,cita,baja
+"puedo reservar horario",desconocido,cita,baja
+"mi perro necesita consulta general",perro,cita,baja
+"quiero una consulta médica",desconocido,cita,baja
+"hay consultas disponibles",desconocido,cita,baja
+"quiero revisión para mi gato",gato,cita,baja
+"mi conejo necesita vacunas",conejo,cita,baja
+"quiero agendar para mi cachorro",perro,cita,baja
+"tienen espacio para consulta",desconocido,cita,baja
+"necesito cita para revisión",desconocido,cita,baja
+"quiero atención para mi gato",gato,cita,baja
+"puedo llevar a mi perro esta semana",perro,cita,baja
+"mi conejo necesita consulta médica",conejo,cita,baja
+"quiero apartar cita para mi mascota",desconocido,cita,baja
+"quiero revisión por caída de pelo",desconocido,cita,baja
+"mi perro necesita vacuna anual",perro,cita,baja
+"quiero consulta por infección",desconocido,cita,baja
+"mi gato necesita chequeo dental",gato,cita,baja
+"quiero cita para operación",desconocido,cita,baja
+"mi conejo necesita revisión urgente",conejo,cita,baja
+"quiero programar consulta para perro",perro,cita,baja
+"necesito veterinario para mi mascota",desconocido,cita,baja
+
+"mi perro tiene vómito desde ayer",perro,consulta,media
+"mi gato está muy quieto",gato,consulta,media
+"mi conejo no quiere comer nada",conejo,consulta,media
+"mi perro tiene diarrea leve",perro,consulta,media
+"mi gato está escondido todo el día",gato,consulta,baja
+"mi conejo perdió energía",conejo,consulta,media
+"mi perro está decaído",perro,consulta,media
+"mi gato tiene lagañas verdes",gato,consulta,media
+"mi conejo está muy flaco",conejo,consulta,media
+"mi perro tiene mucha comezón",perro,consulta,baja
+"mi gato no toma agua",gato,consulta,media
+"mi conejo hace sonidos extraños",conejo,consulta,baja
+"mi perro perdió el apetito",perro,consulta,media
+"mi gato vomita espuma",gato,consulta,media
+"mi conejo está estresado",conejo,consulta,baja
+"mi perro se rasca demasiado",perro,consulta,baja
+"mi gato tiene mal olor",gato,consulta,baja
+"mi conejo está triste",conejo,consulta,baja
+"mi perro tiene gases",perro,consulta,baja
+"mi gato duerme mucho",gato,consulta,baja
+"mi conejo tiene diarrea",conejo,consulta,media
+"mi perro tiene fiebre y tos",perro,consulta,media
+"mi gato come muy poco",gato,consulta,media
+"mi conejo está raro desde ayer",conejo,consulta,media
+"mi perro tiene mocos",perro,consulta,baja
+"mi gato tiene caspa",gato,consulta,baja
+"mi conejo no toma agua",conejo,consulta,media
+"mi perro vomita comida",perro,consulta,media
+"mi gato está muy cansado",gato,consulta,baja
+"mi conejo perdió peso",conejo,consulta,media
+"mi perro tiene mal aliento",perro,consulta,baja
+"mi gato tiene picazón",gato,consulta,baja
+"mi conejo está escondido",conejo,consulta,baja
+"mi perro cojea un poco",perro,consulta,media
+"mi gato no quiere jugar",gato,consulta,baja
+"mi conejo tiene el ojo rojo",conejo,consulta,media
+"mi perro se lame las patas",perro,consulta,baja
+"mi gato tiene diarrea leve",gato,consulta,media
+"mi conejo duerme demasiado",conejo,consulta,baja
+"mi perro está muy desanimado",perro,consulta,media
+"mi gato maúlla extraño",gato,consulta,baja
+"mi conejo se mueve poco",conejo,consulta,media
+"mi perro tiene sarpullido",perro,consulta,media
+"mi gato perdió apetito",gato,consulta,media
+"mi conejo está débil",conejo,consulta,media
+"mi perro tiene el estómago inflamado",perro,consulta,media
+"mi gato tiene fiebre",gato,consulta,media
+"mi conejo no hace del baño",conejo,consulta,media
+"mi perro se ve enfermo",perro,consulta,media
+"mi gato está decaído desde ayer",gato,consulta,media
+
+"mi perro no puede respirar",perro,urgencia,alta
+"mi gato convulsiona mucho",gato,urgencia,alta
+"mi conejo está inmóvil",conejo,urgencia,alta
+"mi perro sangra demasiado",perro,urgencia,alta
+"mi gato no responde",gato,urgencia,alta
+"mi conejo no se mueve",conejo,urgencia,alta
+"mi perro tuvo un accidente",perro,urgencia,alta
+"mi gato se desmayó",gato,urgencia,alta
+"mi conejo está agonizando",conejo,urgencia,alta
+"mi perro está inconsciente",perro,urgencia,alta
+"mi gato respira muy rápido",gato,urgencia,alta
+"mi conejo sangra mucho",conejo,urgencia,alta
+"mi perro convulsiona",perro,urgencia,alta
+"mi gato tiene heridas graves",gato,urgencia,alta
+"mi conejo no despierta",conejo,urgencia,alta
+"mi perro se está ahogando",perro,urgencia,alta
+"mi gato está muy grave",gato,urgencia,alta
+"mi conejo no puede respirar",conejo,urgencia,alta
+"mi perro tiene mucha sangre",perro,urgencia,alta
+"mi gato no abre los ojos",gato,urgencia,alta
+"mi conejo convulsiona",conejo,urgencia,alta
+"mi perro no puede caminar",perro,urgencia,alta
+"mi gato está sangrando",gato,urgencia,alta
+"mi conejo no reacciona",conejo,urgencia,alta
+"mi perro se intoxicó",perro,urgencia,alta
+"mi gato tragó veneno",gato,urgencia,alta
+"mi conejo tuvo un accidente",conejo,urgencia,alta
+"mi perro está temblando mucho",perro,urgencia,alta
+"mi gato se cayó y no responde",gato,urgencia,alta
+"mi conejo tiene espuma en la boca",conejo,urgencia,alta
+"mi perro sangra por la boca",perro,urgencia,alta
+"mi gato no puede moverse",gato,urgencia,alta
+"mi conejo está muy débil",conejo,urgencia,alta
+"mi perro perdió el conocimiento",perro,urgencia,alta
+"mi gato está inconsciente",gato,urgencia,alta
+"mi conejo sangra de la nariz",conejo,urgencia,alta
+"mi perro fue atropellado",perro,urgencia,alta
+"mi gato tiene dificultad para respirar",gato,urgencia,alta
+"mi conejo está tirado",conejo,urgencia,alta
+"mi perro está muy mal",perro,urgencia,alta
+"mi gato no puede levantarse",gato,urgencia,alta
+"mi conejo tiene heridas graves",conejo,urgencia,alta
+"mi perro está agonizando",perro,urgencia,alta
+"mi gato sangra mucho",gato,urgencia,alta
+"mi conejo se desmayó",conejo,urgencia,alta
+"mi perro tiene convulsiones fuertes",perro,urgencia,alta
+"mi gato no reacciona al tocarlo",gato,urgencia,alta
+"mi conejo está muy grave",conejo,urgencia,alta
+"mi perro necesita ayuda urgente",perro,urgencia,alta
+"mi mascota está muriendo",desconocido,urgencia,alta
